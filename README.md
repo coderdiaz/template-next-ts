@@ -6,6 +6,8 @@ A Next.js template with TypeScript and TailwindCSS configured.
 
 - TailwindCSS.
 - TypeScript.
+- EsLint.
+- Prettier.
 
 ### How to use
 
