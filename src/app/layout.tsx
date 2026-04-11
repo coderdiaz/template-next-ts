@@ -1,5 +1,5 @@
 import 'tailwindcss/tailwind.css';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import type { CommonProps } from '@/lib/props';
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ interface RootLayoutProps extends CommonProps {}
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>{children}</body>
     </html>
   );
