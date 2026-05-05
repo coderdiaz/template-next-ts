@@ -1,4 +1,4 @@
-import { type ClassValue } from 'clsx';
+import type { ClassValue } from 'clsx';
 
 export type CommonProps = {
   className?: ClassValue;
