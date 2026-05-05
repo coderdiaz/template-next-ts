@@ -1,6 +1,6 @@
-## Next.js 14 Template
+## Next.js 16 Template
 
-This is a Next.js template bootstrapped with a set of tools and configurations to help you get started with your next project.
+This is a Next.js boilerplate with a set of opinionated tools and configurations to help you get started with your next project.
 
 ### Getting Started
 
@@ -23,9 +23,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ### Features
 
 - Typescript support.
-- Includes eslint and prettier configurations.
-- Tailwind CSS support.
-- It includes `clsx` and `tailwind-merge` to manage class names.
+- Includes biome configurations.
+- TailwindCSS 4 support.
+- It includes a helper function called `cn` that uses `clsx` and `tailwind-merge` to manage dynamic class names.
 
 ### Learn More
 
