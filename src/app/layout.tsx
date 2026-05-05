@@ -1,4 +1,4 @@
-import 'tailwindcss/tailwind.css';
+import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import type { CommonProps } from '@/lib/props';
 
